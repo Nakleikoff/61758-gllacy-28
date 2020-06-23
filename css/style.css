@@ -1,0 +1,195 @@
+:root {
+  --basic-background-1: #849D8F;
+  --basic-light-background-1: rgba(215, 242, 227, 0.75);
+  --basic-background-2: #8996A6;
+  --basic-light-background-2: rgba(218, 228, 239, 0.75);
+  --basic-background-3: #9D8B84;
+  --basic-light-background-3: rgba(239, 224, 218, 0.75);
+  --basic-form-background: #F8F7F4;
+  --basic-text: #FFFFFF;
+  --basic-text-2: #323232;
+  --basic-text-3: #5A5A5A;
+  --basic-active-page: linear-gradient(180deg, #F26843 0%, #E74A35 100%);
+  --basic-catalog-menu: rgba(255, 255, 255, 0.2);
+
+  --special-button: #D07058;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  background-color: var(--basic-background-1, #849D8F);
+  color: var(--basic-text, #FFFFFF);
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 41px;
+}
+
+a {
+  color: var(--basic-text);
+  text-decoration: none;
+}
+
+.popup {
+  display: none;
+}
+
+.navigation {
+  font-weight: bold;
+  list-style: none;
+}
+
+.side-menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  list-style: none;
+}
+
+.side-menu a {
+  background-color: var(--basic-catalog-menu, rgba(255, 255, 255, 0.2));
+}
+
+.advantages {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--basic-text-2, #323232);
+  background-image: url(../img/index1/wafer.jpg);
+  background-repeat: no-repeat;
+}
+
+.advantages h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.advantages ul {
+  list-style: none;
+}
+
+.action {
+  list-style: none;
+}
+
+.action .raspberry {
+    background-image: url(../img/index1/raspberry.jpg);
+    background-repeat: no-repeat;
+}
+
+.action .chocolate {
+    background-image: url(../img/index1/chocolate.jpg);
+    background-repeat: no-repeat;
+}
+
+.blog {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--basic-text-2, #323232);
+  background-image: url(../img/index1/strawberry.jpg);
+  background-repeat: no-repeat;
+}
+
+.blog h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.blog ul {
+  list-style: none;
+}
+
+.blog a {
+  color: var(--basic-text-2, #323232);
+}
+
+.subscription {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--basic-form-background, #F8F7F4);
+  background-image: url(../img/index1/letter_border.png),
+    url(../img/index1/letter_background.png);
+  background-repeat: no-repeat;
+}
+
+.map {
+  background-image: url(../img/index1/map.png),
+    url(../img/index1/pin.png);
+  background-repeat: no-repeat;
+  color: var(--basic-text-2, #323232);
+}
+
+.extra-info {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.extra-info span {
+  font-weight: bold;
+}
+
+.page-name {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.path {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  list-style: none;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.price span {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.icecream-list {
+  list-style: none;
+}
+
+.icecream-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contacts {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contacts a {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.social-media {
+  list-style: none;
+}
+
+.logo {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
